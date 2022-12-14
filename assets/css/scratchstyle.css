@@ -1,0 +1,79 @@
+/* 
+    * Alden Transfiguracion
+    * Section 001
+    * 12/16/2022 
+*/
+
+/* General */
+body{
+    background-color: rgb(244, 255, 223);
+    font-family:"Open Sans", sans-serif;
+}
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(244, 255, 125);
+    text-decoration:underline;
+}
+
+/* Header Items */
+.header{
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 150px;
+    padding-bottom: 5px;
+    background-color: #2a576c;
+    color: rgb(244, 250, 255);
+}
+.anchor{
+    font-size: x-large;
+    word-spacing: 100px;
+    text-align: center;
+    position: relative; top: -100px;
+}
+.title{
+    font-size: 80px;
+    text-align: center;
+    position: relative; top: -50px;
+}
+
+/* Section Titles */
+.sectiontitle{
+    text-decoration: underline;
+    color: #2a576c;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+/* Places Section */
+.ol {
+    font-size: x-large;
+    font-weight: bold;
+}
+.ul{
+    color: #2a576c;
+    font-size: x-large;
+    font-weight: lighter;
+}
+
+/* Images */
+.container {
+    display: flex;
+    align-items: center;
+  }
+  
+  img {
+    max-width: 100%;
+}
+  
+.image {
+    flex-basis: 20%;
+  }
+  
+  .text {
+    font-size: 20px;
+    padding-left: 50px;
+  }
